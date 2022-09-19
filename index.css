@@ -1,0 +1,111 @@
+.hero-bg-image{
+    background-image: url(/media/techbanner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    max-height: 700px;
+    /* z-index: 1000; */
+    margin-top: -172px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.hero-text{
+    text-align: center;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+    color: white;
+    font-size: 22px;
+}
+
+
+
+.logo{
+    z-index: 100;
+}
+
+
+.section2{
+    align-items: center;
+}
+
+.mcd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+
+
+.pudding{
+    background-color: #030708;
+    height: 600px;
+}
+
+
+.text-left{
+    text-align: left;
+}
+
+
+
+.soft-dev{
+    background-color: #f36624;
+    color: white;  
+    padding: 20px; 
+}
+
+
+.data-science{
+    background-color: #544842;
+    color: white;  
+    padding: 20px; 
+}
+
+
+.master-degree{
+    background-color: #f36624;
+    color: white;  
+    padding: 20px; 
+}
+
+
+.our-prog{
+    max-width: 80vw;
+    box-sizing: border-box;
+}
+
+.syllabus{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.head-syllabus{
+    padding-bottom: 20px;
+}
+
+.curriculum{
+    background-color:#f36624;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 1000px;
+}
+
+
+.btncurri{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f36624;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 18px;
+}
+
+.accord-btns p{
+    margin: 10px;
+    border-radius: 5px;
+
+}

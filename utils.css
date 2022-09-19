@@ -1,0 +1,1129 @@
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    width: 150px;
+}
+
+
+.space-around {
+    justify-content: space-around;
+    display: flex;
+}
+
+ul li {
+    padding-left: 20px;
+}
+
+
+
+
+li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+header {
+
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+main2 {
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+
+.btn {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f36624;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #f36624;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    background-color: #ffffff;
+    padding-top: 50px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    /* display: none; */
+    padding: 6px 12px;
+    border: 1px solid #dcc0c042;
+    border-top: none;
+    box-shadow: 5px 10px 8px #e7b4b433;
+    margin-right: 105px;
+    margin-top: 50px;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabcontent2 {
+    padding: 6px 12px;
+    border: 1px solid #dcc0c042;
+    border-top: none;
+    box-shadow: 5px 10px 8px #e7b4b433;
+    margin-right: 105px;
+    margin-top: 50px;
+}
+
+.tab3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tab2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.accordion {
+    background-color: #f2fbf7;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.active,
+.accordion:hover {
+    background-color: #f2fbf7;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #f2fbf7;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #f2fbf7;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: start;
+    padding-left: 60px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+
+.free-trial {
+    position: absolute;
+    margin-top: -36px;
+    background-color: #f36624;
+    color: wheat;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+
+.main-accordion {
+    width: 776px;
+}
+
+
+
+.main-curriculum {
+    display: flex;
+    margin-left: 60px;
+}
+
+
+.main4 {
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* max-width: 60vw; */
+}
+
+.pricing {
+    text-align: left;
+    margin-left: -30px;
+}
+
+.pricing li {
+    padding-bottom: 10px;
+}
+
+
+
+.pricing-btn {
+    padding: 14px;
+    background-color: #f36624;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #f36624;
+    font-size: 18px;
+    margin-left: 23px;
+    margin-top: 20px;
+}
+
+.table-heading th {
+    padding: 15px;
+}
+
+
+.table-left-heading1 td {
+    padding: 15px;
+    background-color: #f2fbf8;
+}
+
+.table-left-heading2 td {
+    padding: 15px;
+    background-color: #e2f0e9;
+}
+
+.table-left-heading3 td {
+    padding: 15px;
+    background-color: #f2fbf8;
+
+}
+
+.table-left-heading4 td {
+    padding: 15px;
+    background-color: #e2f0e9;
+
+}
+
+.table-left-heading5 td {
+    padding: 15px;
+    background-color: #f2fbf8;
+
+}
+
+.table-left-heading6 td {
+    padding: 15px;
+    background-color: #e2f0e9;
+
+}
+
+
+.table-btn {
+    padding: 14px;
+    background-color: #f36624;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #f36624;
+    font-size: 18px;
+    margin-left: 23px;
+    margin-top: 60px;
+}
+
+.checked {
+    color: orange;
+}
+
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0rem !important;
+}
+
+.navmenu ul::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: calc(100%-58px);
+    left: 40px;
+    top: 0;
+    background-color: #3742da;
+    z-index: -1;
+    margin-top: 29px;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+
+.floating-vector2 {
+    width: 120px;
+    right: -60px;
+    top: 200px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    border-radius: 5px;
+}
+
+
+.herosectionvector {
+    margin-top: -188px;
+    margin-left: 592px;
+}
+
+
+.bg-image {
+    background-image: url("/media/heroSectionBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-heading {
+    color: rgb(7, 36, 109);
+    font-size: 56px;
+    letter-spacing: 0.7px;
+    font-weight: 800;
+    line-height: 40px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-para {
+    color: rgb(125, 136, 154);
+    width: 1054px;
+    margin: 0 auto;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.boring-class {
+    margin-top: -125px;
+    margin-right: 690px;
+    text-align: center;
+}
+
+.sec2-heading {
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec2-para {
+    line-height: 30px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.boxes {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    margin-right: 30px;
+}
+
+.box2 {
+    margin-right: 30px;
+}
+
+.sec-3 {
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.sec-3-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.sec-3-box1 {
+    display: flex;
+    width: 34vw;
+    background-color: #e42984;
+    ;
+    color: white;
+    padding: 20px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.sec-3-box2 {
+    display: flex;
+    width: 34vw;
+    background-color: #6b327f;
+    color: white;
+    padding: 20px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.sec-3-box3 {
+    display: flex;
+    width: 34vw;
+    background-color: #f4b803;
+    color: white;
+    padding: 20px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.sec-3-box4 {
+    display: flex;
+    width: 34vw;
+    background-color: #26becf;
+    color: white;
+    padding: 20px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.box1-down {
+    display: flex;
+    width: 34vw;
+    background-color: #85586e;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.box2-down {
+    display: flex;
+    width: 34vw;
+    background-color: #451555;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.box3-down {
+    display: flex;
+    width: 34vw;
+    background-color: #c1971a;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.box4-down {
+    display: flex;
+    width: 34vw;
+    background-color: #296268;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+
+.sec3-box4 {
+    margin-right: 20px;
+}
+
+.sec6-para {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 35px;
+    line-height: 35px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 20px;
+
+}
+
+.sec6-para2 {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 35px;
+    line-height: 35px;
+}
+
+.sec5-box {
+    font-size: 1.75rem;
+}
+
+.pricing-box {
+    background-color: #fff7cc;
+    background-color: #fff7cc;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-left: 100px;
+    border-radius: 30px;
+    height: 507px;
+    z-index: 50;
+}
+
+.prerequisite {
+    background-color: #544842;
+    color: white;
+    margin-right: 67px;
+    margin-left: -394px;
+    padding: 49px;
+    margin-top: 489px;
+    z-index: 0;
+    border-radius: 0px 0px 30px 30px;
+    height: 120px;
+}
+
+.pricing-btn-box {
+    padding: 14px;
+    background-color: #f36624;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #f36624;
+    font-size: 18px;
+    margin-left: 23px;
+    margin-top: 20px;
+}
+
+.sec6-head {
+    padding-top: 200px;
+}
+
+.testimonial-content {
+    font-size: 25px;
+    padding-right: 300px;
+    padding-left: 300px;
+    margin-bottom: 20px;
+}
+
+.testimonial-pics {
+    width: 348px;
+    height: 100%;
+    object-fit: cover;
+    padding: 60px;
+}
+
+.learner-detail-div {
+    margin-top: -40px;
+}
+
+.ques-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f36624;
+    margin-top: 100px;
+}
+
+.pricing-btn-ques {
+    background-color: #f36624;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #f36624;
+    font-size: 18px;
+    margin-top: 20px;
+    border: 2px solid wheat;
+    padding: 7px;
+}
+
+.boxes-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+
+}
+
+.profilereadiness {
+    background-color: #e42984;
+    padding: 20px;
+    width: 366px;
+    height: 369px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 17px;
+    margin-right: 16px;
+}
+
+.dsa {
+    background-color: #7fc034;
+    padding: 20px;
+    width: 366px;
+    height: 369px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 17px;
+    margin-right: 16px;
+}
+
+.interview {
+    background-color: #6b327f;
+    padding: 20px;
+    width: 366px;
+    height: 369px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 17px;
+    margin-right: 16px;
+}
+
+.career-planning {
+    background-color: #26becf;
+    padding: 20px;
+    width: 366px;
+    height: 369px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 17px;
+    margin-right: 16px;
+}
+
+.referrals {
+    background-color: #f4b803;
+    padding: 20px;
+    width: 366px;
+    height: 369px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 17px;
+    margin-right: 16px;
+}
+
+.ques-head {
+    padding-right: 300px;
+}
+
+.have-any-furthur {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1c0531;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width:700px) {
+
+    .main-heading {
+        color: rgb(7, 36, 109);
+        font-size: 34px;
+        letter-spacing: 0.7px;
+        font-weight: 800;
+        line-height: 40px;
+        padding-top: 100px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    .main-para {
+        color: rgb(125, 136, 154);
+        margin: 0 auto;
+        font-size: 18px;
+        letter-spacing: 0.8px;
+        font-weight: 400;
+        margin-top: 30px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        width: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .course-video {
+        width: 421px;
+        height: 284px;
+        border-radius: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .boring-class {
+        display: none;
+    }
+
+    .herosectionvector {
+        display: none;
+    }
+
+    .sec2-div {
+        display: inline;
+        ;
+    }
+
+    .sec2-heading {
+        font-size: 33px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .sec2-para {
+        line-height: 37px;
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    main2 {
+        box-sizing: border-box;
+        justify-content: center;
+        display: flex;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .mcd {
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+
+    .sec2-img {
+        vertical-align: middle;
+        border-style: none;
+        width: 500px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .boxes {
+        padding-top: 50px;
+        display: inline;
+    }
+
+    .box1 {
+        margin: 30px 10px 30px 10px;
+    }
+
+    .box2 {
+        margin: 30px 10px 30px 10px;
+    }
+
+    .box3 {
+        margin: 30px 10px 30px 10px;
+    }
+
+    .sec-3 {
+        padding-top: 100px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .sec-3-boxes {
+        display: inline;
+        justify-content: center;
+    }
+
+    .sec-3-box1 {
+        display: flex;
+        width: auto;
+        background-color: #e42984;
+        ;
+        color: white;
+        padding: 20px;
+        border-radius: 12px 12px 0px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .sec-3-box2 {
+        display: flex;
+        width: auto;
+        background-color: #6b327f;
+        color: white;
+        padding: 20px;
+        border-radius: 12px 12px 0px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .sec-3-box3 {
+        display: flex;
+        width: auto;
+        background-color: #f4b803;
+        color: white;
+        padding: 20px;
+        border-radius: 12px 12px 0px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .sec-3-box4 {
+        display: flex;
+        width: auto;
+        background-color: #26becf;
+        color: white;
+        padding: 20px;
+        border-radius: 12px 12px 0px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .box1-down {
+        display: flex;
+        width: auto;
+        background-color: #85586e;
+        color: white;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+        border-radius: 0px 0px 12px 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .box2-down {
+        display: flex;
+        width: auto;
+        background-color: #451555;
+        color: white;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+        border-radius: 0px 0px 12px 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .box3-down {
+        display: flex;
+        width: auto;
+        background-color: #c1971a;
+        color: white;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+        border-radius: 0px 0px 12px 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .box4-down {
+        display: flex;
+        width: auto;
+        background-color: #296268;
+        color: white;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+        border-radius: 0px 0px 12px 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .sec3-box4 {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .syllabus {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .sec6-para {
+        padding-top: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .table {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        align-items: center;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+
+    .sec6-para2 {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 50px;
+        line-height: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .curriculum {
+        background-color: #f36624;
+        color: white;
+        border-radius: 20px;
+        padding: 20px;
+        margin-top: 20px;
+        width: 500px;
+    }
+
+    .sec5-box {
+        font-size: 1.3rem;
+    }
+
+    .main4 {
+        box-sizing: border-box;
+        justify-content: center;
+        display: inline;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .main-curriculum {
+        display: flex;
+        margin: 30px 20px 30px 20px;
+    }
+
+    .pricing-box {
+        background-color: #fff7cc;
+        background-color: #fff7cc;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 250px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 30px;
+        height: 507px;
+        z-index: 50;
+    }
+
+
+    .prerequisite {
+        background-color: #544842;
+        color: white;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 63px;
+        margin-top: -24px;
+        z-index: 0;
+        border-radius: 0px 0px 30px 30px;
+        height: 120px;
+    }
+
+
+    .pricing-btn-box {
+        padding: 14px;
+        background-color: #f36624;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #f36624;
+        font-size: 18px;
+        margin-left: 23px;
+        margin-top: 100px;
+    }
+
+    .sec6-head {
+        padding-top: 100px;
+    }
+
+    .testimonial-content {
+        font-size: 25px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-pics {
+        width: 249px;
+        height: 100%;
+        object-fit: cover;
+        padding: 60px;
+        margin-left: -54px;
+    }
+
+    .learner-detail-div {
+        margin-top: -40px;
+        font-size: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .boxes-5 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 64px;
+    }
+
+    .profilereadiness {
+        background-color: #e42984;
+        padding: 20px;
+        width: 366px;
+        height: 369px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 17px;
+        margin-right: 16px;
+        margin-bottom: 20px;
+    }
+
+
+    .dsa {
+        background-color: #7fc034;
+        padding: 20px;
+        width: 366px;
+        height: 369px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 17px;
+        margin-right: 16px;
+        margin-bottom: 20px;
+    }
+
+    .interview {
+        background-color: #6b327f;
+        padding: 20px;
+        width: 366px;
+        height: 369px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 17px;
+        margin-right: 16px;
+    }
+
+    .career-planning {
+        background-color: #26becf;
+        padding: 20px;
+        width: 366px;
+        height: 369px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 17px;
+        margin-right: 16px;
+        margin-bottom: 20px;
+        margin-top: -40px;
+    }
+
+    .referrals {
+        background-color: #f4b803;
+        padding: 20px;
+        width: 366px;
+        height: 369px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 17px;
+        margin-right: 16px;
+        margin-bottom: 20px;
+    }
+
+    .ques-head {
+        padding-right: 0px;
+        margin-left: 30px;
+    }
+
+    .have-any-furthur {
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .ques-image{
+        margin-left: -225px;
+    }
+}
+
+
+
+
